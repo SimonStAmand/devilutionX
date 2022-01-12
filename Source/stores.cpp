@@ -2303,6 +2303,9 @@ void InitStores()
 
 void SetupTownStores()
 {
+	// reset shop on load
+	SetRndSeed(glSeedTbl[currlevel] * SDL_GetTicks());
+
 	auto &myPlayer = Players[MyPlayerId];
 
 	int l = myPlayer._pLevel / 2;

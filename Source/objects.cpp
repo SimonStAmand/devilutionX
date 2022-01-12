@@ -187,7 +187,7 @@ char shrinemax[] = {
 	MAX_LVLS, // Magical
 	MAX_LVLS, // Stone
 	MAX_LVLS, // Religious
-	8,        // Enchanted
+	MAX_LVLS, // Enchanted
 	MAX_LVLS, // Thaumaturgic
 	MAX_LVLS, // Fascinating
 	MAX_LVLS, // Cryptic
@@ -233,36 +233,36 @@ shrine_gametype shrineavail[] = {
 	ShrineTypeAny,    // Hidden
 	ShrineTypeSingle, // Gloomy
 	ShrineTypeSingle, // Weird
-	ShrineTypeAny,    // Magical
-	ShrineTypeAny,    // Stone
+	ShrineTypeMulti,  // Magical
+	ShrineTypeMulti,  // Stone
 	ShrineTypeAny,    // Religious
 	ShrineTypeAny,    // Enchanted
 	ShrineTypeSingle, // Thaumaturgic
-	ShrineTypeAny,    // Fascinating
+	ShrineTypeMulti,  // Fascinating
 	ShrineTypeAny,    // Cryptic
 	ShrineTypeAny,    // Magical
 	ShrineTypeAny,    // Eldritch
 	ShrineTypeAny,    // Eerie
 	ShrineTypeAny,    // Divine
-	ShrineTypeAny,    // Holy
-	ShrineTypeAny,    // Sacred
+	ShrineTypeMulti,  // Holy
+	ShrineTypeMulti,  // Sacred
 	ShrineTypeAny,    // Spiritual
 	ShrineTypeMulti,  // Spooky
 	ShrineTypeAny,    // Abandoned
 	ShrineTypeAny,    // Creepy
 	ShrineTypeAny,    // Quiet
 	ShrineTypeAny,    // Secluded
-	ShrineTypeAny,    // Ornate
+	ShrineTypeMulti,  // Ornate
 	ShrineTypeAny,    // Glimmering
 	ShrineTypeMulti,  // Tainted
-	ShrineTypeAny,    // Oily
-	ShrineTypeAny,    // Glowing
-	ShrineTypeAny,    // Mendicant's
-	ShrineTypeAny,    // Sparkling
-	ShrineTypeAny,    // Town
-	ShrineTypeAny,    // Shimmering
-	ShrineTypeSingle, // Solar,
-	ShrineTypeAny,    // Murphy's
+	ShrineTypeMulti,  // Oily
+	ShrineTypeMulti,  // Glowing
+	ShrineTypeMulti,  // Mendicant's
+	ShrineTypeMulti,  // Sparkling
+	ShrineTypeMulti,  // Town
+	ShrineTypeMulti,  // Shimmering
+	ShrineTypeMulti,  // Solar,
+	ShrineTypeMulti,  // Murphy's
 };
 /** Maps from book_id to book name. */
 const char *const StoryBookName[] = {
